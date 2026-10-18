@@ -1,0 +1,12 @@
+[package]
+name = "genesis-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Educational Sega Mega Drive / Genesis emulator core (incomplete)"
+
+[features]
+default = []
+window = ["dep:minifb"]
+
+[dependencies]
+minifb = { version = "0.29", optional = true }
