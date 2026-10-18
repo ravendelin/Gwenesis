@@ -1,5 +1,5 @@
 [package]
-name = "genesis-rs"
+name = "gwenesis"
 version = "0.1.0"
 edition = "2021"
 description = "Educational Sega Mega Drive / Genesis emulator core (incomplete)"

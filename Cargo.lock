@@ -172,13 +172,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "genesis-rs"
-version = "0.1.0"
-dependencies = [
- "minifb",
-]
-
-[[package]]
 name = "getrandom"
 version = "0.4.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -187,6 +180,13 @@ dependencies = [
  "cfg-if",
  "libc",
  "r-efi",
+]
+
+[[package]]
+name = "gwenesis"
+version = "0.1.0"
+dependencies = [
+ "minifb",
 ]
 
 [[package]]
